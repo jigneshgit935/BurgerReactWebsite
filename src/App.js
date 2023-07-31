@@ -38,7 +38,7 @@ import NotFound from './components/layout/NotFound';
 
 function App() {
   return (
-    <Router basename={process.env.PUBLIC_URL}>
+    <Router>
       <Header isAuthenticated={true} />
       <Routes>
         <Route path="/" element={<Home />} />
